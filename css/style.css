@@ -1,0 +1,67 @@
+/*reset básico*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*estilo do menu*/
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li{
+  display:inline;
+  margin-right: 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*estilo do banner*/
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+/*estilo do vídeo*/
+.video{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.video h2{
+  margin-bottom: 10px;
+}
+
+/*estilo das colunas*/
+.colunas{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.coluna {
+  width: 45%;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+/*estilo do rodapé*/
+footer {
+  background-color: #333;
+  color:white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p{
+  margin: 5px 0;
+}
