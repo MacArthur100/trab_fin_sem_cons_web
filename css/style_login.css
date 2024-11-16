@@ -1,0 +1,68 @@
+body{
+    Font-family: arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, gray, deepskyblue);
+}
+
+/*estilo do menu*/
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding:20px 0px;
+  }
+  
+  nav ul li{
+    display:inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a{
+    color: #00FF00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+div{
+    background-color: rgb(0,0,0,0.9); /*cor do fundo da div*/
+    position: absolute; /*ocupa apenas  espaço dos seus elementos*/
+    top:50%; /*alinha ao meio da tela*/
+    left:50%; /*alinha ao meionda tela*/
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    display:block; /*coloca cada input em uma linha*/
+    margin-top: 20px;
+    background-color: dodgerblue;
+    border: none;
+}
+
+button{
+    margin-top: 20px;
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius:10px;
+    color: white;
+}
+button:hover{ /*quando passar o mouse no botão*/
+background-color: deepskyblue;
+cursor: pointer;
+}
+
+/*estilo do rodapé*/
+footer {
+    background-color: #333;
+    color: #00FF00;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30rem;
+  }
+  
+  footer p{
+    margin: 5px 0;
+  }

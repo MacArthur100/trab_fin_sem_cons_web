@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background-color: #333;
+    color: #00FF00;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #00FF00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Seção de Serviços */
+.servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.servico-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.servico-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.servico-box h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.servico-box p {
+    margin-top: 0.5rem;
+    color: #666;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #333;
+    color: #00FF00;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

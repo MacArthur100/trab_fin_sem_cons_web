@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trabalho Final de Semestre</title>
+  <title>index</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#formulário">Formulário</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#compras">Compras</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="formulario.html">Formulário</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
+      <li><a href="orcamento.html">Orçamento</a></li>
+      <li><a href="login.html">Login</a></li>
     </ul>
   </nav>
 
   <header>
-    <img src="img/Faça sua empresa decolar na internet!!.png" alt="banner do Site" class="banner">
+    <img src="img/faça sua empresa decolar na internet.png" alt="banner do Site" class="banner">
   </header>
 
   <section class="video">
@@ -29,17 +30,44 @@
 
   <section class="colunas">
     <div class="coluna">
-      <h3>coluna 1</h3>
-      <p>Conteúdo da primeira coluna. Informação relevante sobre o tema.</p>
+      <h3>Identidade Visual Personalizada para Empresas</h3>
+      <p>Criação de Identidades Visuais Exclusivas: Desenvolvemos identidades visuais únicas que refletem a essência e os valores de cada marca, combinando design estratégico e criatividade para garantir uma presença marcante no mercado.</p>
     </div>
     <div class="coluna">
-      <h3>Coluna 2</h3>
-      <p>Conteúdo da segunda coluna. Mais detalhes importantes sobre o tema.</p>
+      <h3>Soluções Criativas para Marcas Inesquecíveis</h3>
+      <p>Loja de Produtos Personalizados e Branding Completo: Oferecemos uma ampla gama de produtos personalizados e serviços de branding, ideais para fortalecer a conexão da sua marca com o público-alvo, com destaque em design e alinhamento estratégico.</p>
     </div>
   </section>
 
+  <div class="carrossel-container">
+    <!-- Radio Buttons para Navegação -->
+    <input type="radio" name="carrossel" id="slide1" checked>
+    <input type="radio" name="carrossel" id="slide2">
+    <input type="radio" name="carrossel" id="slide3">
+
+    <!-- Slides do Carrossel -->
+    <div class="slides">
+        <div class="carrossel-slide" id="img1">
+            <img src="img/Instagram post de gestão empresarial corporativo azul (800 x 400 px).png" alt="Imagem 1">
+        </div>
+        <div class="carrossel-slide" id="img2">
+            <img src="img/é caro contratar um site.png" alt="Imagem 2">
+        </div>
+        <div class="carrossel-slide" id="img3">
+            <img src="img/os melhores sites do país (1600 x 800 px).png" alt="Imagem 3">
+        </div>
+    </div>
+
+    <!-- Navegação por Pontos -->
+    <div class="navegacao">
+        <label for="slide1" class="nav-btn"></label>
+        <label for="slide2" class="nav-btn"></label>
+        <label for="slide3" class="nav-btn"></label>
+    </div>
+</div>
+
   <footer>
-    <p>Telefone: (19)99746 9752</p>
+    <p>Contato: (19)99746 9752</p>
     <p>Email: contato@sitedominium.site</p>
     <p>Endereço: Rua Coronel José Pereira Lima, 1029</p>
   </footer>
