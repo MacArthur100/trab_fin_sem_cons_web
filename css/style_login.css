@@ -1,6 +1,11 @@
+*{
+  margin: 0;
+    padding: 0;
+}
 body{
     Font-family: arial, Helvetica, sans-serif;
     background-image: linear-gradient(45deg, gray, deepskyblue);
+  
 }
 
 /*estilo do menu*/
